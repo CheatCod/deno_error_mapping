@@ -1,0 +1,14 @@
+[package]
+name = "deno_error_mapping"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/CheatCod/deno_error_mapping"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+deno_ast = "0.27.3"
+deno_core = "0.195.0"
+deno_graph = "0.50.0"
+import_map = "0.15.0"
+deno_runtime = "0.120.0"
